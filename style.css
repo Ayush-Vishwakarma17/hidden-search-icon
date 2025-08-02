@@ -59,3 +59,13 @@ input::placeholder{
     input:focus{
     outline: none;
 }
+.input {
+    caret-color: transparent;
+    pointer-events: none;
+}
+
+.input.active {
+    caret-color: auto;
+    pointer-events: auto;
+}
+
